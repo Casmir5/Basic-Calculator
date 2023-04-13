@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+  <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <div class="header">
+          <p id="name">calc</p>
+          <div class="d-flex">
+            <p id="theme">THEME</p>
+           
+            <div class="toggle">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+              </ul>
+              <div class="toggle-box">
+               <div class="toggle-btn one active"></div>
+               <div class="toggle-btn two"></div>
+               <div class="toggle-btn three"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="screen-display">
+          <p class="answer"></p>
+        </div>
+        <div class="keypad">
+          <!-- Column 1 -->
+          <div class="col">
+            <button value="7" class="number">7</button>
+            <button value="8" class="number">8</button>
+            <button value="9" class="number">9</button>
+            <button class="clear">DEL</button>
+          </div>
+          <!-- Column 2 -->
+          <div class="col">
+            <button value="4" class="number">4</button>
+            <button value="5" class="number">5</button>
+            <button value="6" class="number">6</button>
+            <button class="plus">+</button>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="col">
+            <button value="1" class="number">1</button>
+            <button value="2" class="number">2</button>
+            <button value="3" class="number">3</button>
+            <button class="minus">-</button>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="col">
+            <button class="point">.</button>
+            <button value="0" class="number">0</button>
+            <button class="division">/</button>
+            <button class="multiplication">*</button>
+          </div>
+
+          <!-- column 5 -->
+          <div class="col-footer">
+            <button class="reset">RESET</button>
+            <button class="equals">=</button>
+          </div>
+        </div>
+        <!-- arithmertic box end  -->
+      </div>
+      <!-- calculator ends -->
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
